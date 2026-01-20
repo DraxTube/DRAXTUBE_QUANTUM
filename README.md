@@ -1,4 +1,4 @@
-# 🚀 DRAXTUBE QUANTUM v45.2
+# 🚀 DRAXTUBE QUANTUM v1.0
 
 Benvenuti su **DRAXTUBE QUANTUM**, lo strumento definitivo per scaricare film direttamente sulla vostra **PS Vita** (o qualsiasi dispositivo con browser) usando la potenza del vostro PC.
 
