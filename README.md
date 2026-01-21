@@ -1,48 +1,55 @@
-# 🚀 DRAXTUBE QUANTUM v1.0
+# 🎬 DRAXTUBE QUANTUM v1.0 (Quantum Engine)
 
-Benvenuti su **DRAXTUBE QUANTUM**, lo strumento definitivo per scaricare film direttamente sulla vostra **PS Vita** (o qualsiasi dispositivo con browser) usando la potenza del vostro PC.
-
-## 📺 Crediti
-* **Sviluppatore:** [DraxTube](https://github.com/DraxTube)
-* **Canale YouTube:** [@DraxTube01](https://www.youtube.com/@DraxTube01)
+**DraxTube Quantum** è un server locale in Python progettato per trasformare la tua PS Vita in una stazione di download definitiva. Permette di cercare film e serie TV sul PC e inviarli direttamente alla console tramite Wi-Fi, pronti per essere guardati offline.
 
 ---
 
-## 🛠️ Cosa serve per funzionare?
-Per far funzionare il programma, è necessario che nella stessa cartella dell'eseguibile siano presenti questi due file (motori di download):
-1. `yt-dlp.exe`
-2. `ffmpeg.exe`
+## 🛠️ Requisiti Obbligatori (PS VITA)
 
-> **NOTA:** Senza questi due file, il programma si chiuderà automaticamente per evitare errori.
+Per far sì che la PS Vita accetti il download del file `.mp4`, è **fondamentale** installare il seguente plugin:
 
----
-
-## 🚀 Come si usa? (Guida rapida)
-
-1. **Scarica il pacchetto:** Scarica la cartella compressa ed estrai tutto il contenuto in una cartella sul tuo PC.
-2. **Avvia il Server:** Clicca due volte su `DRAXTUBE_QUANTUM_V45.exe`.
-3. **Leggi l'IP:** Nella finestra nera apparirà un indirizzo simile a questo: `http://192.168.1.XX:5000`.
-4. **Connetti la PS Vita:**
-   - Apri il Browser della tua PS Vita.
-   - Digita l'indirizzo IP che hai letto sul PC.
-5. **Cerca e Scarica:**
-   - Cerca il tuo film preferito.
-   - Scegli un mirror e premi Download.
-   - Aspetta che il PC finisca l'elaborazione.
-   - Quando appare il **TASTO VERDE "SCARICA SU VITA"**, premilo per avviare il salvataggio sulla console!
+* **Download Enabler**: Consente al browser della PS Vita di scaricare file da qualsiasi link.
+* **Come installarlo**: Usa **AutoPlugin II**, cerca "Download Enabler" nella lista dei plugin Vita e installalo. Riavvia la console dopo l'installazione.
 
 ---
 
-## ✨ Caratteristiche
-- ✅ **Velocità Turbo:** Usa 16 thread contemporaneamente per il massimo della velocità.
-- ✅ **Tasto Istantaneo:** Grazie al check in tempo reale, il tasto download appare non appena il file è pronto.
-- ✅ **Auto-Pulizia:** Il PC cancella automaticamente i file temporanei dopo il download per non occupare spazio inutile.
-- ✅ **Interfaccia Netflix Style:** Grafica pulita e scura ottimizzata per lo schermo della PS Vita.
+## 💻 Requisiti Tecnici (PC)
+
+Il programma necessita dei seguenti componenti nella cartella principale:
+
+1.  **Python 3.x** installato.
+2.  **yt-dlp.exe**: L'eseguibile per il download dei flussi video.
+3.  **ffmpeg.exe**: Necessario per convertire i video nel formato corretto per la Vita.
+4.  **Librerie Python**:
+    ```bash
+    pip install flask requests beautifulsoup4
+    ```
 
 ---
 
-## ⚠️ Note legali
-Questo programma è stato creato a scopo puramente illustrativo e per uso personale. L'autore non si assume alcuna responsabilità per l'uso improprio del software.
+## 🚀 Caratteristiche Principali
+
+* **Anti-Loop System**: Impedisce al processo di riavviarsi se il browser della Vita ricarica la pagina.
+* **Smart Conversion**: Converte automaticamente in `.mp4` con il `moov atom` all'inizio del file (ottimizzato per lo streaming locale).
+* **Auto-IP Detection**: Mostra l'indirizzo corretto da digitare sulla PS Vita appena avviato.
+* **Interfaccia con Copertine**: Visualizzazione fluida delle locandine dei film direttamente sul browser della console.
 
 ---
-**DraxTube - Rendiamo la PS Vita immortale!**
+
+## 📖 Istruzioni d'uso
+
+1.  Metti `asf.py`, `yt-dlp.exe` e `ffmpeg.exe` nella stessa cartella.
+2.  Avvia lo script: `python asf.py`.
+3.  Nella console apparirà un messaggio come: `URL PS VITA: http://192.168.x.x:5000`.
+4.  Apri il **Browser della PS Vita** e digita quell'indirizzo.
+5.  Cerca un film, scegli un Mirror e attendi che il PC completi l'elaborazione.
+6.  Quando compare il tasto verde **"SCARICA SU VITA"**, premilo per iniziare il download nella memoria della console.
+
+---
+
+## 👤 Credits & Supporto
+
+Sviluppato da **DraxTube**. Se il progetto ti piace, seguimi sui miei canali:
+
+* **GitHub**: [DraxTube Profile](https://github.com/DraxTube)
+* **YouTube**: [@DraxTube01](https://
