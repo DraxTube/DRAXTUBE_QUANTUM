@@ -52,4 +52,4 @@ Il programma necessita dei seguenti componenti nella cartella principale:
 Sviluppato da **DraxTube**. Se il progetto ti piace, seguimi sui miei canali:
 
 * **GitHub**: [DraxTube Profile](https://github.com/DraxTube)
-* **YouTube**: [@DraxTube01](https://
+* **YouTube**: [@DraxTube01]([https://](https://www.youtube.com/@DraxTube01)
