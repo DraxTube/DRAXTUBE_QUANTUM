@@ -53,3 +53,11 @@ Sviluppato da **DraxTube**. Se il progetto ti piace, seguimi sui miei canali:
 
 * **GitHub**: [DraxTube Profile](https://github.com/DraxTube)
 * **YouTube**: [@DraxTube01]([https://](https://www.youtube.com/@DraxTube01)
+
+ ---
+
+## ⚠️ Note legali
+Questo programma è stato creato a scopo puramente illustrativo e per uso personale. L'autore non si assume alcuna responsabilità per l'uso improprio del software.
+
+---
+**DraxTube - Rendiamo la PS Vita immortale!**
