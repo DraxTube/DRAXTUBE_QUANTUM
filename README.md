@@ -17,13 +17,10 @@ Per far sì che la PS Vita accetti il download del file `.mp4`, è **fondamental
 
 Il programma necessita dei seguenti componenti nella cartella principale:
 
-1.  **Python 3.x** installato.
-2.  **yt-dlp.exe**: L'eseguibile per il download dei flussi video.
-3.  **ffmpeg.exe**: Necessario per convertire i video nel formato corretto per la Vita.
-4.  **Librerie Python**:
-    ```bash
-    pip install flask requests beautifulsoup4
-    ```
+
+1.  **yt-dlp.exe**: L'eseguibile per il download dei flussi video.
+2.  **ffmpeg.exe**: Necessario per convertire i video nel formato corretto per la Vita.
+
 
 ---
 
@@ -38,13 +35,13 @@ Il programma necessita dei seguenti componenti nella cartella principale:
 
 ## 📖 Istruzioni d'uso
 
-1.  Metti `asf.py`, `yt-dlp.exe` e `ffmpeg.exe` nella stessa cartella.
-2.  Avvia lo script: `python asf.py`.
-3.  Nella console apparirà un messaggio come: `URL PS VITA: http://192.168.x.x:5000`.
-4.  Apri il **Browser della PS Vita** e digita quell'indirizzo.
-5.  Cerca un film, scegli un Mirror e attendi che il PC completi l'elaborazione.
-6.  Quando compare il tasto verde **"SCARICA SU VITA"**, premilo per iniziare il download nella memoria della console.
+1.  Metti `DraxTube_Quantum.exe`, `yt-dlp.exe` e `ffmpeg.exe` nella stessa cartella.
+2.  Avvia `DraxTube_Quantum.exe`.
+3.  Digita l'URL che compare (es: `http://192.168.x.x:5000`) nel **Browser della PS Vita**.
+4.  Cerca un film, scegli un Mirror e attendi il termine dell'elaborazione sul PC.
+5.  Quando appare il tasto verde **"SCARICA SU VITA"**, premilo.
 
+⚠️ **ATTENZIONE**: Non chiudere il programma sul PC finché la PS Vita non ha terminato completamente il download. Se chiudi la console sul PC durante il trasferimento, il download sulla console fallirà.
 ---
 
 ## 👤 Credits & Supporto
